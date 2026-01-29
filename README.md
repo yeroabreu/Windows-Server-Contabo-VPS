@@ -34,7 +34,7 @@ This guide provides step-by-step instructions for installing Windows 10 on a Con
   - `ping -c 3 google.com`
 - Execute the following commands:
   - `apt install git -y`
-  - `git clone https://github.com/ombadr/Windows-Server-Contabo-VPS.git`
+  - `git clone https://github.com/yeroabreu/Windows-Server-Contabo-VPS.git`
   - `cd Windows-Server-Contabo-VPS`
   - `chmod +x windows-install.sh`
   - `./windows-install.sh`
