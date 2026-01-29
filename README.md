@@ -27,6 +27,11 @@ This guide provides step-by-step instructions for installing Windows 10 on a Con
 
 - Open Terminal on MacOS or PuTTY on Windows.
 - Log in with the command `ssh root@<MACHINE-IP>` and enter your Rescue System password.
+- Resolve the DNS:
+  - `echo "nameserver 8.8.8.8" > /etc/resolv.conf`
+  - `echo "nameserver 8.8.4.4" >> /etc/resolv.conf`
+- and verificate it:
+  - `ping -c 3 google.com`
 - Execute the following commands:
   - `apt install git -y`
   - `git clone https://github.com/ombadr/Windows-Server-Contabo-VPS.git`
